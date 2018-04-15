@@ -1,0 +1,17 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Łukasz Szewczak <lukaszewczak@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.0.6"
+  },
+  "devDependencies": {
+    "node": "^8.9.4"
+  }
+}
