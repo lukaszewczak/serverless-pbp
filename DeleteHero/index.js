@@ -21,7 +21,7 @@ module.exports = async function (context, req) {
 
         context.res = {
             status: 200,
-            body: result.deletedCount
+            body: { message: `Heroes deleted ${result.deletedCount}` }
         };
     } catch (err) {
         console.log(err.stack);
